@@ -58,7 +58,7 @@ body{
   border-radius: 50%;
 }
 
-#button button{
+#share-button button{
   position: relative;
   border-radius: 50%;
   border-style: none;
@@ -69,8 +69,39 @@ body{
   
 }
 
-#button button img{
+#share-button button img{
   width: 10px;
   height: 10px;
   
+}
+
+#social-media{
+  position: absolute;
+  display: flex;
+  background-color: hsl(217, 19%, 35%);
+  width: 200px;
+  height: 55px;
+  z-index: 1;
+  right: -60px;
+  top: -80px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  visibility:collapse;
+}
+
+#social-media p{
+  margin-right: 15px;
+  margin-left:10px;
+}
+
+.socials-icon{
+  position: relative;
+  border-radius: 50%;
+  border-style: none;
+  height: 25px;
+  padding: 5px;
+  margin: 5px 5px 5px 5px;
+  top: 8px;
+  background-color: hsl(212, 23%, 69%);
+
 }
