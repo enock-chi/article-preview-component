@@ -1,8 +1,14 @@
 
-
-document.querySelector(".button").onclick = function() {
-  let name = document.getElementById("social-media");
-  name.setAttribute("visibility", "true");
-  console.log(name);
+let value = "visible";
+let name = document.getElementById("social-media");
+document.querySelector(".button").onclick = function () {
+  name.style.visibility = "visible";
+  if (value == "visible") {
+    name.style.visibility = "visible";
+    value = "collapse";
+  } else {
+    name.style.visibility = "collapse";
+    value = "visible";
+  }
 
 }

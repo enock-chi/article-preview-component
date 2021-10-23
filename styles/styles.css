@@ -81,12 +81,12 @@ body{
   background-color: hsl(217, 19%, 35%);
   width: 200px;
   height: 55px;
-  z-index: 1;
+  z-index: 500;
   right: -60px;
   top: -80px;
   padding: 10px 10px 10px 10px;
   border-radius: 20px;
-  visibility:collapse;
+  visibility: collapse;
 }
 
 #social-media p{
