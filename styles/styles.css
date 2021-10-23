@@ -1,0 +1,76 @@
+body{
+  position: relative;
+  background-color: hsl(210, 46%, 95%);
+}
+
+#container{
+  position: relative;
+  display: flex;
+  width:800px;
+  height: 300px;
+  background-color: white;
+  left: 20%;
+  top: 175px;
+}
+
+#container-info{
+  width: 400px;
+  margin: 20px 20px 20px 40px;
+}
+
+#container-info h2{
+  color:  hsl(214, 17%, 51%);
+}
+
+#container-info p{
+  color: hsl(212, 23%, 69%);
+}
+
+#container-image img{
+  width: 350px;
+  height: 300px;
+}
+
+#user-profile{
+  position: relative;
+  display: flex;
+  
+}
+
+#user-info{
+  position: relative;
+  margin-left: 20px;
+  top: -13px;
+}
+
+#user-info h5{
+  margin-bottom: 0px;
+  color:  hsl(214, 17%, 51%);
+}
+
+#user-info p{
+  margin-top: 0px;
+  color: hsl(212, 23%, 69%);
+}
+
+#user-profile img{
+  width: 50px;
+  border-radius: 50%;
+}
+
+#button button{
+  position: relative;
+  border-radius: 50%;
+  border-style: none;
+  width: 30px;
+  height: 30px;
+  right: -150px;
+  top: 10px;
+  
+}
+
+#button button img{
+  width: 10px;
+  height: 10px;
+  
+}
